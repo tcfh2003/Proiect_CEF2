@@ -18,11 +18,28 @@ R6 Vcc Vin+ 10k
 R7 Vin+ 0 10k
 R8 Vout Vin+ 1k
 R9 Vin- N006 5k
+R10 Vo 0 10k
+R11 Vcc N010 2k
+M1 N010 N010 0 0 BS170
+M2 N009 N010 0 0 BS170
+M3 Vo Vin_n N009 N009 BS170
+M4 N008 Vin_p N009 N009 BS170
+M5 N008 N008 Vcc Vcc BS250P
+M6 Vo N008 Vcc Vcc BS250P
+V4 Vin_n 0 SINE(6 6 1k)
+R12 Vcc Vin_p 10k
+R13 Vin_p 0 10k
+R14 Vo Vin_p 1k
 .model NPN NPN
 .model PNP PNP
 .lib C:\Users\TCFH2003\AppData\Local\LTspice\lib\cmp\standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\TCFH2003\AppData\Local\LTspice\lib\cmp\standard.mos
 .tran 5m
 .inc opamp.sub
+.inc "C:\Users\TCFH2003\Documents\LTspice\PSPICE_Models\BS170.lib"
+.inc "C:\Users\TCFH2003\Documents\LTspice\PSPICE_Models\BS250P.lib"
 .lib ADI1.lib
 .backanno
 .end
