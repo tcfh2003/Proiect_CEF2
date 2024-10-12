@@ -1,0 +1,17 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\TCFH2003\Documents\!!PCB_Projects\Proiect1\Proiect1.asc
+Start Time: Fri Oct 11 17:36:34 2024
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = modified trap
+Per .tran options, skipping operating point for transient analysis.
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Total elapsed time: 0.058 seconds.
+
