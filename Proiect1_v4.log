@@ -1,0 +1,13 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\TCFH2003\Documents\!!PCB_Projects\Proiect1\Proiect1_v4.asc
+Start Time: Sat Oct 12 19:25:44 2024
+Error on line 1 : .model bs250p vdmos pchan rg=160 vto=-3.193 rs=2.041 rd=0.697 is=2e-13 kp=0.277 cjo=105p pb=1 lambda=1.2e-2 rb=0.309 rds=1.2e8 cgdmax=57p cgdmin=5p cgs=47p tt=86.56n bv=45 ibv=10u
+	* Unrecognized parameter "pb" -- ignored
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = modified trap
+Per .tran options, skipping operating point for transient analysis.
+Total elapsed time: 0.124 seconds.
+
