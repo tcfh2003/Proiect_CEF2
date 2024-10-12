@@ -1,9 +1,9 @@
 * C:\Users\TCFH2003\Documents\!!PCB_Projects\Proiect1\Proiect1_v4.asc
 V1 Vcc 0 25
-R5 N010 N011 24k
-C3 0 N006 10n
+R5 N010 N011 4k
+C3 0 N006 2n
 Rload Vout 0 22k
-R8 N001 N002 24k
+R8 N001 N002 4k
 M1 N004 N006 N008 N008 BS170
 M2 N005 N003 N008 N008 BS170
 M3 N008 N009 0 0 BS170
@@ -20,17 +20,17 @@ M9 N006 N001 Vcc Vcc BS250P
 M10 N010 N004 Vcc Vcc BS250P
 M11 N011 N011 0 0 BS170
 M12 N006 N011 0 0 BS170
-R9 N007 Vout 90k
-M13 Vcc N006 N007 N007 BS170
+M13 Vcc N006 Vout Vout BS170
 .model NMOS NMOS
 .model PMOS PMOS
 .lib C:\Users\TCFH2003\AppData\Local\LTspice\lib\cmp\standard.mos
-.tran 5m uic
+.tran 0 0.5m 1u uic
 .inc "C:\Users\TCFH2003\Documents\LTspice\PSPICE_Models\BS170.lib"
 .inc "C:\Users\TCFH2003\Documents\LTspice\PSPICE_Models\BS250P.lib"
-* R_ctrl+ = R_ctrl- = 24k    =>    f = 2.18 kHz
-* R_ctrl+ = R_ctrl- = 800    =>    f = 50 kHz
+* R_ctrl+ = R_ctrl- = 110k    =>    f = 2.25 kHz
+* R_ctrl+ = R_ctrl- = 4k    =>    f = 45.5 kHz
 * R9 = 0   =>   A = 11V
 * R9 = 90k   =>   A = 2.15V
+.temp 0 25 50 70
 .backanno
 .end
