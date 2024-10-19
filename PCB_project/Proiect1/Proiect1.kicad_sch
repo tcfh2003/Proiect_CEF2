@@ -1,0 +1,5946 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8397c790-c697-4091-9aa5-c1b639e58540")
+	(paper "A4")
+	(lib_symbols
+		(symbol "BS250_1"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q11"
+				(at 6.35 -1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BS250FTA"
+				(at 6.35 1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 8.382 -19.812 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/70209/70209.pdf"
+				(at 8.89 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-0.18A Id, -45V Vds, P-Channel MOSFET, TO-92"
+				(at 9.652 -24.384 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "PMOS"
+				(at 0 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=G 2=S 3=D"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "TME" "https://www.tme.eu/en/details/bs250fta/smd-p-channel-transistors/diodes-incorporated/"
+				(at 12.7 -22.098 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BS250_1_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BS250_1_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_FET:BS170F"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BS170F"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.diodes.com/assets/Datasheets/BS170F.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.15A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BS170F_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BS170F_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+24V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 228.6 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0169375c-ac1a-4bb7-81de-3a534e5ff7f5")
+	)
+	(junction
+		(at 76.2 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10c0ad8b-673d-484c-aac4-60a25c347c20")
+	)
+	(junction
+		(at 120.65 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11875918-5e85-461c-9611-3f5b72bcb432")
+	)
+	(junction
+		(at 170.18 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14cef3ee-4218-4b51-989b-c6248084ff00")
+	)
+	(junction
+		(at 198.12 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4814a4bf-91e5-4d27-8ea6-44cd037bac81")
+	)
+	(junction
+		(at 109.22 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ecacd01-68c7-4a03-98d2-787b0d36b9ed")
+	)
+	(junction
+		(at 177.8 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6145a940-d711-4313-bd16-abdc8e44c0d5")
+	)
+	(junction
+		(at 147.32 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62f0de46-b633-435f-a470-2ca6e577c7eb")
+	)
+	(junction
+		(at 228.6 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cfe732e-b432-4163-a39a-ae2a959e2991")
+	)
+	(junction
+		(at 120.65 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77927b7e-1bc3-40bd-b6a3-e35434ee3eb0")
+	)
+	(junction
+		(at 170.18 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8754873f-7f57-442b-bed1-54d2a585f29e")
+	)
+	(junction
+		(at 232.41 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb87e1f1-c3e6-4c2f-bc28-da3f0d5d40f5")
+	)
+	(junction
+		(at 185.42 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df5bd6a1-c03f-4b33-8cfa-cc2d50f97f23")
+	)
+	(junction
+		(at 209.55 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3710f5d-0164-4f24-acc2-9987342d8a2f")
+	)
+	(junction
+		(at 132.08 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4fbcfd1-0619-427b-8d39-b8c2c0605fae")
+	)
+	(junction
+		(at 162.56 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eda4663b-6a27-44a6-927c-3e6549f8efc3")
+	)
+	(junction
+		(at 88.9 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f95490d3-536f-4476-885f-e2d69c783b6a")
+	)
+	(junction
+		(at 120.65 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe1a08b0-62ce-46f2-83a3-ede639cffe9b")
+	)
+	(wire
+		(pts
+			(xy 185.42 88.9) (xy 185.42 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0463caf7-260a-4ef1-81cd-733388d75d04")
+	)
+	(wire
+		(pts
+			(xy 170.18 57.15) (xy 173.99 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05bbc464-0be3-42bd-90e7-50a85b43a5fe")
+	)
+	(wire
+		(pts
+			(xy 232.41 101.6) (xy 257.81 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e3625c7-3664-4f64-b50e-6358db04be3a")
+	)
+	(wire
+		(pts
+			(xy 132.08 82.55) (xy 132.08 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5454da-7e0c-4195-8e6e-b36d24ea8057")
+	)
+	(wire
+		(pts
+			(xy 109.22 93.98) (xy 109.22 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1242d6ac-8bef-4fcc-977d-c4f584bfc8f6")
+	)
+	(wire
+		(pts
+			(xy 109.22 71.12) (xy 109.22 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1826ec0b-ba93-4cda-8583-e061dc5312cd")
+	)
+	(wire
+		(pts
+			(xy 109.22 81.28) (xy 109.22 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e89382-de0a-416f-a983-d8552e9898a8")
+	)
+	(wire
+		(pts
+			(xy 76.2 88.9) (xy 76.2 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e80b321-971b-4746-a0b9-40d772eaa135")
+	)
+	(wire
+		(pts
+			(xy 124.46 58.42) (xy 147.32 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "215ca66a-857f-4ff8-9aa1-c8eb1d95b52a")
+	)
+	(wire
+		(pts
+			(xy 109.22 68.58) (xy 120.65 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2312e769-04ad-4b3b-9f4e-476da6aa3e1b")
+	)
+	(wire
+		(pts
+			(xy 147.32 82.55) (xy 162.56 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2767b65f-7ce0-4cc8-a85e-69ad1650d8f9")
+	)
+	(wire
+		(pts
+			(xy 170.18 34.29) (xy 177.8 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a654475-a83c-4324-b17d-9a4571d48180")
+	)
+	(wire
+		(pts
+			(xy 88.9 88.9) (xy 101.6 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d54e68-62f0-4ce7-9a46-70ee333bedcc")
+	)
+	(wire
+		(pts
+			(xy 170.18 36.83) (xy 170.18 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f838290-0396-4db0-af18-2cc2fd0e135d")
+	)
+	(wire
+		(pts
+			(xy 109.22 96.52) (xy 120.65 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5831cc92-969e-41bd-ad75-4799034bcf16")
+	)
+	(wire
+		(pts
+			(xy 139.7 88.9) (xy 185.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "613db2f9-797d-4ab0-a85a-2ce660ab7225")
+	)
+	(wire
+		(pts
+			(xy 116.84 76.2) (xy 120.65 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c441c17-0037-4d65-862a-f69e33d431b1")
+	)
+	(wire
+		(pts
+			(xy 76.2 80.01) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7051b753-e0df-4366-895c-712428a7e611")
+	)
+	(wire
+		(pts
+			(xy 132.08 81.28) (xy 132.08 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74ff52ed-3de5-4111-b093-baad1be18620")
+	)
+	(wire
+		(pts
+			(xy 120.65 76.2) (xy 124.46 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7650eb86-4e14-4b24-8fa6-2bdaefa4b340")
+	)
+	(wire
+		(pts
+			(xy 147.32 58.42) (xy 147.32 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7870c277-a7ae-448a-8fec-e269a06d147f")
+	)
+	(wire
+		(pts
+			(xy 232.41 97.79) (xy 232.41 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79220ddd-4f01-47e9-bf46-0da2edffebde")
+	)
+	(wire
+		(pts
+			(xy 185.42 34.29) (xy 185.42 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79361019-7b13-47ea-a118-274f2b42392d")
+	)
+	(wire
+		(pts
+			(xy 170.18 55.88) (xy 170.18 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d71ab76-f943-444a-ad81-903933e04448")
+	)
+	(wire
+		(pts
+			(xy 185.42 88.9) (xy 198.12 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e0182b2-a7fc-495b-92a0-ec7ac414ba43")
+	)
+	(wire
+		(pts
+			(xy 162.56 71.12) (xy 162.56 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "925dc3f9-d5d8-414b-af39-a6eace469c4f")
+	)
+	(wire
+		(pts
+			(xy 173.99 52.07) (xy 173.99 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d6508d5-e226-4d5e-b87d-7b27ee0aa010")
+	)
+	(wire
+		(pts
+			(xy 162.56 82.55) (xy 162.56 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a38407-7c3f-4f10-bf1c-73f9459b3c4c")
+	)
+	(wire
+		(pts
+			(xy 88.9 58.42) (xy 88.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a426525e-4fd8-4951-af3e-1357910498ff")
+	)
+	(wire
+		(pts
+			(xy 132.08 82.55) (xy 147.32 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae0cb015-95a5-4d03-9b00-20f2b90ab910")
+	)
+	(wire
+		(pts
+			(xy 228.6 109.22) (xy 257.81 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1485feb-d472-4e1e-b7d3-4b2fcbd31ff2")
+	)
+	(wire
+		(pts
+			(xy 120.65 76.2) (xy 120.65 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3be80d2-dcc3-4501-a27a-2c2d669e4ccd")
+	)
+	(wire
+		(pts
+			(xy 116.84 58.42) (xy 88.9 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb03a72b-7694-4209-ad1a-b208970f4010")
+	)
+	(wire
+		(pts
+			(xy 109.22 82.55) (xy 120.65 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3eda968-5be1-4e1d-8621-b728d7723acb")
+	)
+	(wire
+		(pts
+			(xy 120.65 96.52) (xy 132.08 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6257b14-536d-4f28-b563-63de3f2df868")
+	)
+	(wire
+		(pts
+			(xy 170.18 57.15) (xy 170.18 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c647946d-4b39-4419-9992-e25e3db0a93f")
+	)
+	(wire
+		(pts
+			(xy 132.08 93.98) (xy 132.08 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c729cfcd-3fe2-48cf-8081-6a4ef5d6edce")
+	)
+	(wire
+		(pts
+			(xy 170.18 128.27) (xy 173.99 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9bd0b0d-e3b0-453b-9024-4d493701a97c")
+	)
+	(wire
+		(pts
+			(xy 170.18 46.99) (xy 170.18 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfbbc257-43ea-4441-8826-650547caa619")
+	)
+	(wire
+		(pts
+			(xy 198.12 88.9) (xy 209.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6f42cfe-1bb6-475f-9fd9-d66c33bd7aae")
+	)
+	(wire
+		(pts
+			(xy 185.42 46.99) (xy 185.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d788805b-9435-4693-a3b2-ac71dd7c3120")
+	)
+	(wire
+		(pts
+			(xy 209.55 88.9) (xy 220.98 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d835fab5-04ef-4881-be3e-eae05e92862a")
+	)
+	(wire
+		(pts
+			(xy 170.18 128.27) (xy 170.18 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc7d6fa5-fd04-4b0c-b1b3-2a9d56d70e70")
+	)
+	(wire
+		(pts
+			(xy 120.65 68.58) (xy 132.08 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0bbebfa-601e-4285-9805-22b108eabe73")
+	)
+	(wire
+		(pts
+			(xy 177.8 34.29) (xy 185.42 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7786216-98f6-444d-a02d-082f6281a983")
+	)
+	(wire
+		(pts
+			(xy 132.08 68.58) (xy 132.08 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e82f5e22-6a33-48fa-bc5b-1dfb7f343e1e")
+	)
+	(wire
+		(pts
+			(xy 76.2 88.9) (xy 88.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee4906ec-21f4-4a7e-b723-86dc6d06e3e1")
+	)
+	(wire
+		(pts
+			(xy 170.18 127) (xy 170.18 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2eee5a-9ff5-4451-916c-d7d0c03318d0")
+	)
+	(wire
+		(pts
+			(xy 173.99 123.19) (xy 173.99 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b43374-8a2e-45fb-b188-ae8aaf5a352e")
+	)
+	(wire
+		(pts
+			(xy 228.6 101.6) (xy 232.41 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f476d818-4529-4d46-a8f7-14286d650197")
+	)
+	(wire
+		(pts
+			(xy 109.22 82.55) (xy 109.22 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff22af35-ad9d-406e-8710-a2b73ea362dd")
+	)
+	(wire
+		(pts
+			(xy 120.65 96.52) (xy 120.65 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff829ca1-c58d-47f6-96c2-7409781bc0de")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0205cdc7-38bc-4b08-b197-83281580a1fa")
+		(property "Reference" "#PWR013"
+			(at 185.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7175bac-cae5-4afb-a9a6-551ecedd94d4")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BS170F")
+		(at 134.62 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04e166b6-dc3f-48fa-8d41-9ea1fca1de14")
+		(property "Reference" "Q6"
+			(at 129.286 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS170FTA"
+			(at 129.286 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 129.54 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/BS170F.pdf"
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.15A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 134.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 134.62 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 134.62 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 134.62 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/ro/en/details/bs170fta/smd-n-channel-transistors/diodes-incorporated/"
+			(at 134.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0a438e88-7ea7-4444-ae04-ef15a068c313")
+		)
+		(pin "2"
+			(uuid "d57e0f6f-4a38-4005-82ee-09f942af9b80")
+		)
+		(pin "1"
+			(uuid "e69b04f1-34a6-44b9-89fd-7a8076954b44")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 262.89 109.22 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05562056-ccf0-49cf-ad6c-8476f8e45ef9")
+		(property "Reference" "J4"
+			(at 265.43 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 262.255 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 262.89 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 262.89 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b39f7cb-4714-4f4d-bb36-7e38220d1702")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 198.12 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d107b15-d55e-43da-ad95-24993685c0fb")
+		(property "Reference" "#PWR014"
+			(at 198.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 198.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2939c547-f749-470f-9e75-d18591b85268")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 170.18 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0de7a85c-edb1-45cb-aacd-7dfc0c6d767a")
+		(property "Reference" "RV2"
+			(at 167.64 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 167.64 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "zCustom_Footprints:3361P_1"
+			(at 170.18 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 170.18 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/ro/en/details/3361p-1-104glf/single-turn-smd-trimmers/bourns/"
+			(at 170.18 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2f4ed41b-fc77-4bdd-b4b3-d7443f73f9b9")
+		)
+		(pin "1"
+			(uuid "fbc4f831-8fc2-4253-aa76-b4516040be5f")
+		)
+		(pin "2"
+			(uuid "b8567b73-c703-4c3d-b913-947d316deb06")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "RV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BS170F")
+		(at 106.68 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e125938-36a6-46f5-bffb-1e0b81524653")
+		(property "Reference" "Q1"
+			(at 111.76 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS170FTA"
+			(at 111.76 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 111.76 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/BS170F.pdf"
+			(at 111.76 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.15A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 106.68 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 106.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 106.68 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/ro/en/details/bs170fta/smd-n-channel-transistors/diodes-incorporated/"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fabf8958-3ae9-4eac-8fae-6a1881de57cc")
+		)
+		(pin "2"
+			(uuid "daf9dcf0-ea8e-48d8-b9fc-87688c367f68")
+		)
+		(pin "1"
+			(uuid "66064f9b-8b29-4325-9a22-75027b394386")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 170.18 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14783ad8-3108-4f83-987e-12963cee33c3")
+		(property "Reference" "RV1"
+			(at 167.64 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 167.64 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "zCustom_Footprints:3361P_1"
+			(at 170.18 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 170.18 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/ro/en/details/3361p-1-104glf/single-turn-smd-trimmers/bourns/"
+			(at 170.18 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "dfb68d5c-8956-49fb-8733-b4e41d18fc10")
+		)
+		(pin "1"
+			(uuid "3853a2b6-10ac-4394-aa34-60574acbe8a2")
+		)
+		(pin "2"
+			(uuid "d8a82ff8-be32-4305-a1c8-5fa98c656d5c")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BS250_1")
+		(lib_id "Transistor_FET:BS250")
+		(at 182.88 41.91 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2189194a-c290-4079-a44e-9825b7ef50a0")
+		(property "Reference" "Q11"
+			(at 189.23 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS250FTA"
+			(at 189.23 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 191.262 22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/70209/70209.pdf"
+			(at 191.77 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.18A Id, -45V Vds, P-Channel MOSFET, TO-92"
+			(at 192.532 17.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 182.88 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 182.88 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=G 2=S 3=D"
+			(at 182.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/en/details/bs250fta/smd-p-channel-transistors/diodes-incorporated/"
+			(at 195.58 19.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d42ae236-7e95-4076-b662-5ed7fbef78b2")
+		)
+		(pin "1"
+			(uuid "dfaa9253-c34f-42fd-b443-25c49d61e513")
+		)
+		(pin "2"
+			(uuid "1e508754-c0ab-4832-b26d-107c6cc8b23c")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 170.18 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2329f8ab-0411-4279-906a-21099a324cda")
+		(property "Reference" "R5"
+			(at 172.72 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 172.72 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 168.402 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 170.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/ro/en/details/erjp06j472v/smd-resistors/panasonic/"
+			(at 170.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad9f4829-e969-48b8-b542-4ad22a1c6e0b")
+		)
+		(pin "2"
+			(uuid "92d0544f-71ef-4f8e-bd1f-356cc9d45047")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BS250_1")
+		(lib_id "Transistor_FET:BS250")
+		(at 129.54 76.2 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2538af44-0e00-4abd-a45f-320ab7617600")
+		(property "Reference" "Q5"
+			(at 135.89 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS250FTA"
+			(at 135.89 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 137.922 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/70209/70209.pdf"
+			(at 138.43 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.18A Id, -45V Vds, P-Channel MOSFET, TO-92"
+			(at 139.192 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 129.54 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 129.54 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=G 2=S 3=D"
+			(at 129.54 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/en/details/bs250fta/smd-p-channel-transistors/diodes-incorporated/"
+			(at 142.24 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "82a0d93f-4bea-419f-bece-33cbeeff409d")
+		)
+		(pin "1"
+			(uuid "5619095e-db41-4f09-8749-5b0ac60c3132")
+		)
+		(pin "2"
+			(uuid "2eb72c64-3b59-43eb-9a62-5375cd889c35")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 170.18 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "281091f6-c484-4ebd-9583-8650f0bff6a8")
+		(property "Reference" "#PWR010"
+			(at 170.18 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+25V"
+			(at 170.18 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 170.18 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cad08fd-55c9-453c-a20b-371e4c796d4e")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "329e0049-a4b8-4d12-a036-6fdbe5a73bff")
+		(property "Reference" "#PWR04"
+			(at 81.28 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbc7f76a-6194-45b1-b9c8-b7a2a852eb7a")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 81.28 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37df17fa-401b-4bec-8af3-d515f78517d8")
+		(property "Reference" "#PWR03"
+			(at 81.28 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+25V"
+			(at 81.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 81.28 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e5a3abb-75e1-4313-a69b-05de1338364c")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BS170F")
+		(at 167.64 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40eec222-4391-416c-a4d7-538ce9d5f775")
+		(property "Reference" "Q7"
+			(at 173.99 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS170FTA"
+			(at 173.99 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 172.72 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/BS170F.pdf"
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.15A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 167.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 167.64 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 167.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 167.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/ro/en/details/bs170fta/smd-n-channel-transistors/diodes-incorporated/"
+			(at 167.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "89cc924d-23ef-44ba-8440-3fb6b26f325a")
+		)
+		(pin "2"
+			(uuid "8857031c-2414-43bf-89c5-4e520e58530f")
+		)
+		(pin "1"
+			(uuid "7e66e0f1-5f55-4d9c-add2-1dbedd794f2d")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 105.41 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cb80ac7-3210-4b6c-972c-4f3f6b804145")
+		(property "Reference" "#PWR05"
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+25V"
+			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 105.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d29aca5e-06fc-4040-9a2c-7b06f0d9d646")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 262.89 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53dd10db-2c88-463f-ad55-fe53c21dba8f")
+		(property "Reference" "J3"
+			(at 265.43 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 262.255 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 262.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 262.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "237bff6a-3783-4b4c-b0f5-24d2107ca3db")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57407962-2ad0-42b2-8eae-1ff291e51b17")
+		(property "Reference" "#PWR06"
+			(at 105.41 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e167b3e8-2328-44e0-a6ec-920eb73c4b47")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57ab4067-efc6-492f-aec8-d8d58ddc98eb")
+		(property "Reference" "R4"
+			(at 120.65 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 120.65 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 120.65 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/ro/en/details/rc0805fr-071k/smd-resistors/yageo/rc0805fr-071kl/"
+			(at 120.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06fdad46-d810-4976-bbec-e7b4965f6d85")
+		)
+		(pin "1"
+			(uuid "c8aa0f00-7496-48d8-84ef-ae1cf85af21d")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BS250_1")
+		(lib_id "Transistor_FET:BS250")
+		(at 111.76 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57c0a222-293b-4d99-8ba9-56553bf78dea")
+		(property "Reference" "Q3"
+			(at 105.41 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS250FTA"
+			(at 105.41 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 103.378 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/70209/70209.pdf"
+			(at 102.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.18A Id, -45V Vds, P-Channel MOSFET, TO-92"
+			(at 102.108 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 111.76 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 111.76 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=G 2=S 3=D"
+			(at 111.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/en/details/bs250fta/smd-p-channel-transistors/diodes-incorporated/"
+			(at 99.06 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b08227c5-4d73-4c16-bc99-ecd1ff1f43d6")
+		)
+		(pin "1"
+			(uuid "0c38ec35-0517-4761-bfcf-9f6417a71396")
+		)
+		(pin "2"
+			(uuid "8b12d26f-d66d-46bd-86b2-c5c5fb1b8b46")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 76.2 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bdbe7bc-ec52-47c2-b80d-4e4f53d2cee9")
+		(property "Reference" "J1"
+			(at 73.66 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 76.835 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b01802f-b940-4806-8c6b-0be38a7747df")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BS170F")
+		(at 118.11 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6922ebca-eb4e-4137-a37a-632fe8bb0fd9")
+		(property "Reference" "Q4"
+			(at 124.46 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS170FTA"
+			(at 124.46 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 123.19 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/BS170F.pdf"
+			(at 123.19 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.15A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 118.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 118.11 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 118.11 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 118.11 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/ro/en/details/bs170fta/smd-n-channel-transistors/diodes-incorporated/"
+			(at 118.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0264b4e2-16ee-42d0-9d0f-1adf119059a8")
+		)
+		(pin "2"
+			(uuid "007b655c-6f94-41e9-adc1-426d426a5014")
+		)
+		(pin "1"
+			(uuid "748c301f-ab5e-4e47-94a7-589dfbfb716b")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6928bcbf-7fd7-4949-ba64-feae835cb516")
+		(property "Reference" "#PWR09"
+			(at 170.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b33bb98-936c-439a-bd9c-48c762fa4beb")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 228.6 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70291b13-ca95-4471-8949-09d364847c4d")
+		(property "Reference" "Rload1"
+			(at 231.14 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22k"
+			(at 231.14 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 226.822 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 228.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/ro/en/details/erj6geyj223v/smd-resistors/panasonic/"
+			(at 228.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acc007ee-ce0b-4be6-8a5e-527c24b19707")
+		)
+		(pin "2"
+			(uuid "ee00a6ef-c60c-403a-bba8-72a779f777c0")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "Rload1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 120.65 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7157b190-9f4a-4202-a0c9-2e0ccf758986")
+		(property "Reference" "#PWR07"
+			(at 120.65 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+25V"
+			(at 120.65 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3a3e8d8-e31f-497a-86ee-8cb8c112d501")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BS170F")
+		(at 107.95 114.3 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79f6f796-4a3d-43a1-b8db-e27b430d9471")
+		(property "Reference" "Q2"
+			(at 101.6 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS170FTA"
+			(at 101.6 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 102.87 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/BS170F.pdf"
+			(at 102.87 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.15A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 107.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 107.95 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 107.95 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 107.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/ro/en/details/bs170fta/smd-n-channel-transistors/diodes-incorporated/"
+			(at 107.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "086a0e5d-5f29-42f7-8886-507cbd40c643")
+		)
+		(pin "2"
+			(uuid "18dcbe8e-5451-48e7-874a-a43e5c67817b")
+		)
+		(pin "1"
+			(uuid "7fc67afb-f022-47bd-a3a8-fc4d8d28f682")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 76.2 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e92d262-485f-4728-b8a8-1004a25f9d66")
+		(property "Reference" "J2"
+			(at 73.66 155.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 76.835 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 76.2 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 76.2 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1308bcc-09c8-4330-a2d5-931e314a373d")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d57d6ff-8f90-4e98-9f82-b579a6d40f40")
+		(property "Reference" "#PWR02"
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9f2bfa0-6fe6-4577-a8ce-e6e6223baab5")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 228.6 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aaefd68a-ead2-44f7-8aa3-06a593854406")
+		(property "Reference" "RV3"
+			(at 226.06 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 226.06 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "zCustom_Footprints:3361P_1"
+			(at 228.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 228.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/ro/en/details/3361p-1-104glf/single-turn-smd-trimmers/bourns/"
+			(at 228.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0e72b53f-7dd1-4d6f-a8b9-66e9324ff1cd")
+		)
+		(pin "1"
+			(uuid "da51c065-bf9f-4086-a522-0bbcf6455fb8")
+		)
+		(pin "2"
+			(uuid "e2e02dd5-3384-4561-a67d-b27924057557")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "RV3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 228.6 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab6f7231-5361-47e2-a91d-1cd7b65b9cf0")
+		(property "Reference" "#PWR016"
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+25V"
+			(at 228.6 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 228.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3491cd67-a16b-4069-8d13-399ef8f1df58")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "add13072-545a-4e9b-a4de-58a8b69d90c6")
+		(property "Reference" "R3"
+			(at 107.95 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 107.95 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 103.632 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/ro/en/details/erjp06j472v/smd-resistors/panasonic/"
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6270ccf-12ca-4e83-b2ba-a164ea16677d")
+		)
+		(pin "2"
+			(uuid "589c9e82-94ed-4f7e-819e-6ff3617189b2")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 209.55 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcb30d05-c677-474c-8e02-299a2a776c3c")
+		(property "Reference" "#PWR015"
+			(at 209.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70147d48-27ac-40ec-9591-9e59c22a2ed0")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 76.2 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c94bbc73-4a84-4f9a-afbc-5431f04bd82c")
+		(property "Reference" "R1"
+			(at 78.74 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 78.74 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 74.422 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/ro/en/details/erj6geyj473v/smd-resistors/panasonic/"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35e95476-c018-40ee-ad5b-cd450632a44e")
+		)
+		(pin "2"
+			(uuid "7c52d01b-56c7-49f0-9735-759c92e6e696")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 76.2 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cedb87f5-873c-445e-a2d4-c8672c5cc8f5")
+		(property "Reference" "R2"
+			(at 78.74 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 78.74 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 74.422 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/ro/en/details/erj6geyj473v/smd-resistors/panasonic/"
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "36182306-41b1-47e1-92df-338c33b7231c")
+		)
+		(pin "1"
+			(uuid "24886096-41d7-40dd-af72-ccd061a64294")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BS250_1")
+		(lib_id "Transistor_FET:BS250")
+		(at 167.64 114.3 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2d87471-932f-416b-bd16-20537c20a40a")
+		(property "Reference" "Q8"
+			(at 173.99 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS250FTA"
+			(at 173.99 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 176.022 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/70209/70209.pdf"
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.18A Id, -45V Vds, P-Channel MOSFET, TO-92"
+			(at 177.292 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 167.64 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 167.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=G 2=S 3=D"
+			(at 167.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/en/details/bs250fta/smd-p-channel-transistors/diodes-incorporated/"
+			(at 180.34 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "62b43cf2-804c-47ea-90ce-a22fc868d916")
+		)
+		(pin "1"
+			(uuid "57ee753b-bf1b-47dc-b405-25254795b82e")
+		)
+		(pin "2"
+			(uuid "9cd55cf1-b129-4a65-aecb-5cd3d85661fc")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 76.2 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6d22f64-c863-49fb-b710-a5c7ccb77e94")
+		(property "Reference" "#PWR01"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+25V"
+			(at 76.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 76.2 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb631976-99eb-409b-91ee-51189d51dbd5")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BS170F")
+		(at 182.88 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1b1734f-ac08-4a4c-a6e5-4507d8f2889a")
+		(property "Reference" "Q12"
+			(at 189.23 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS170FTA"
+			(at 189.23 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 187.96 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/BS170F.pdf"
+			(at 187.96 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.15A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 182.88 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 182.88 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 182.88 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 182.88 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/ro/en/details/bs170fta/smd-n-channel-transistors/diodes-incorporated/"
+			(at 182.88 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2f8d1488-8920-429c-94d9-810356ddba6a")
+		)
+		(pin "2"
+			(uuid "34db5196-84e6-4ca5-8c42-8418845c79d2")
+		)
+		(pin "1"
+			(uuid "7d5b3f62-4f78-4d3c-bab5-1567a0ff6891")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 209.55 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6297387-833f-42b9-82c5-560a82dbe3d4")
+		(property "Reference" "C2"
+			(at 213.36 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n"
+			(at 213.36 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 210.5152 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/ro/en/details/grm2165c2a102ja01d/mlcc-smd-capacitors/murata/"
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84d32855-565d-46e1-a50f-7bb3de36c4ee")
+		)
+		(pin "2"
+			(uuid "2f7ad545-9911-4b30-9c22-73af3c1d89c6")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f20891ee-8b19-48df-a25f-0e77c05cafcd")
+		(property "Reference" "#PWR011"
+			(at 170.18 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5756bb2-19f6-410c-a1e7-10d6816617e9")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BS170F")
+		(at 172.72 142.24 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f21b2095-9e15-4211-843c-0999346506f4")
+		(property "Reference" "Q10"
+			(at 166.37 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS170FTA"
+			(at 166.37 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 167.64 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/BS170F.pdf"
+			(at 167.64 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.15A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 172.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 172.72 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 172.72 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 172.72 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/ro/en/details/bs170fta/smd-n-channel-transistors/diodes-incorporated/"
+			(at 172.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cffdbdf7-ce81-4af0-92a1-67bb6b507f7d")
+		)
+		(pin "2"
+			(uuid "b01c9c54-aa31-41ec-8c67-f5070953282a")
+		)
+		(pin "1"
+			(uuid "6baddc92-1415-4be7-a909-493f57a8bbb9")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2c5073e-babf-4424-ab03-52d4407540f3")
+		(property "Reference" "#PWR017"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e074dbec-ff78-4d25-b5b8-caf2a0798d26")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 177.8 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f51cdd99-f729-407d-b35b-aba7efa3ca49")
+		(property "Reference" "#PWR012"
+			(at 177.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+25V"
+			(at 177.8 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 177.8 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dae08527-d4fe-44c5-9c95-1e8b73313220")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 170.18 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa1e40ae-7118-47bb-8b8b-1e204e37d72f")
+		(property "Reference" "R6"
+			(at 172.72 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 172.72 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 168.402 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 170.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/ro/en/details/erjp06j472v/smd-resistors/panasonic/"
+			(at 170.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11ec7c1f-58a6-4309-82d5-f3e69204e18d")
+		)
+		(pin "2"
+			(uuid "373c94c6-1e40-4d90-8e28-b54d6b7756dc")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BS250_1")
+		(lib_id "Transistor_FET:BS250")
+		(at 172.72 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa578dd7-82fa-4444-a4f6-4b9f4af0e50b")
+		(property "Reference" "Q9"
+			(at 166.37 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS250FTA"
+			(at 166.37 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 164.338 22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/70209/70209.pdf"
+			(at 163.83 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.18A Id, -45V Vds, P-Channel MOSFET, TO-92"
+			(at 163.068 17.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 172.72 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 172.72 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=G 2=S 3=D"
+			(at 172.72 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/en/details/bs250fta/smd-p-channel-transistors/diodes-incorporated/"
+			(at 160.02 19.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6f8295b5-3006-46f3-ad98-2211512d1725")
+		)
+		(pin "1"
+			(uuid "d926ef36-480c-4cf9-ae2c-ed0d04660b9e")
+		)
+		(pin "2"
+			(uuid "e39da646-2660-443b-9a93-08a78767de58")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 198.12 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe3ebce3-e4e3-45e9-9e74-4fdd4c301b22")
+		(property "Reference" "C1"
+			(at 201.93 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n"
+			(at 201.93 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 199.0852 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 198.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/ro/en/details/grm2165c2a102ja01d/mlcc-smd-capacitors/murata/"
+			(at 198.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84176a77-a493-4c13-9c8b-984a1ae6498d")
+		)
+		(pin "2"
+			(uuid "8c353650-025c-4d5f-97e6-c68612cdb1d0")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BS170F")
+		(at 226.06 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "feac1300-b8e5-4140-a7e3-346c75e07e34")
+		(property "Reference" "Q13"
+			(at 232.41 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS170FTA"
+			(at 232.41 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 231.14 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/BS170F.pdf"
+			(at 231.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.15A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 226.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 226.06 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 226.06 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 226.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "https://www.tme.eu/ro/en/details/bs170fta/smd-n-channel-transistors/diodes-incorporated/"
+			(at 226.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "89ca0413-1186-4311-972b-7b97e251f1ee")
+		)
+		(pin "2"
+			(uuid "0df9e8d3-7c8b-4f50-8933-f6ab8c9bb655")
+		)
+		(pin "1"
+			(uuid "46b06add-3970-4bf3-b99a-f9f2b6472eda")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff79a828-a71c-465b-acc6-4aed723d202c")
+		(property "Reference" "#PWR08"
+			(at 120.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51bf6ec4-0b54-4e3f-98cb-0278862a2305")
+		)
+		(instances
+			(project "Proiect1"
+				(path "/8397c790-c697-4091-9aa5-c1b639e58540"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
