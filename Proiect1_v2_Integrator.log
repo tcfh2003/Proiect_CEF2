@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
-Circuit: * C:\Users\TCFH2003\Documents\!!PCB_Projects\Proiect1\Proiect1.asc
-Start Time: Sat Oct 19 17:29:55 2024
+Circuit: * C:\Users\TCFH2003\Documents\!!PCB_Projects\Proiect1\Proiect1_v2_Integrator.asc
+Start Time: Sat Oct 19 17:41:12 2024
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -14,5 +14,5 @@ Per .tran options, skipping operating point for transient analysis.
 Changing Tseed to 1.95312e-09
 Changing Tseed to 1.95312e-11
 Changing Tseed to 1.95312e-08
-Total elapsed time: 0.130 seconds.
+Total elapsed time: 0.503 seconds.
 
