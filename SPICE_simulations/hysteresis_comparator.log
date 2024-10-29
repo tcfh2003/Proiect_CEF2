@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
-Circuit: * C:\Users\TCFH2003\Documents\!!PCB_Projects\Proiect1\hysteresis_comparator.asc
-Start Time: Sun Oct 13 00:28:05 2024
+Circuit: * C:\Users\TCFH2003\Documents\!!PCB_Projects\Proiect1\SPICE_simulations\hysteresis_comparator.asc
+Start Time: Tue Oct 29 19:53:22 2024
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -60,5 +60,5 @@ Source Step = 100%
 Source Step = 100%
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.253 seconds.
+Total elapsed time: 0.496 seconds.
 
