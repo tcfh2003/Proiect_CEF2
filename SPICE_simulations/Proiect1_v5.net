@@ -1,14 +1,15 @@
 * C:\Users\TCFH2003\Documents\!!PCB_Projects\Proiect1\SPICE_simulations\Proiect1_v5.asc
-V1 Vcc 0 25
-R5 N010 N011 4k5
-C3 0 N006 2n
+V1 Vcc 0 24
+R5 N010 N011 2k
+C3 0 N006 4.7n
 Rload Vout 0 22k
-R8 N001 N002 4k5
+R8 N001 N002 2k
 R1 Vcc N009 5k
 R2 Vcc N003 50k
 R3 N003 0 50k
 R4 N004 N003 1k
-Q1 Vcc N006 Vout 0 BC846B
+R9 N007 Vout 90k
+Q1 Vcc N006 N007 0 BC846B
 Q2 N002 P001 P002 0 BC846B
 Q3 N001 N001 Vcc 0 BC856B
 Q4 N006 N001 Vcc 0 BC856B
@@ -32,13 +33,15 @@ R11 P005 N003 100k
 .model NPN NPN
 .model PNP PNP
 .lib C:\Users\TCFH2003\AppData\Local\LTspice\lib\cmp\standard.bjt
-.tran 0 0.25m 1u uic
-* R_ctrl+ = R_ctrl- = 110k    =>    f = 2.25 kHz
-* R_ctrl+ = R_ctrl- = 4k    =>    f = 45.5 kHz
-* R9 = 0   =>   A = 11V
-* R9 = 90k   =>   A = 2.15V
+.tran 0 0.1m 1u uic
+* R_ctrl+ = R_ctrl- = 60k       =>    f = 2.38 kHz
+* R_ctrl+ = R_ctrl- = 2k         =>    f = 43.85 kHz
+* R9 = 500   =>   A = 11V
+* R9 = 90k   =>   A = 2.2V
 * .temp 0 25 50 70
 .inc "C:\Users\TCFH2003\Documents\LTspice\PSPICE_Models\bc846b.lib"
 .inc "C:\Users\TCFH2003\Documents\LTspice\PSPICE_Models\bc856b.lib"
+* R_ctrl+ = R_ctrl- = 64k       =>    f = 2.22 kHz
+* R_ctrl+ = R_ctrl- = 1.95k    =>    f = 44.44 kHz
 .backanno
 .end
