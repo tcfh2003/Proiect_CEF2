@@ -539,13 +539,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "TME",
-          "name": "TME",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -581,12 +575,6 @@
           "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
           "show": false
         },
         {
@@ -643,7 +631,7 @@
   },
   "sheets": [
     [
-      "8397c790-c697-4091-9aa5-c1b639e58540",
+      "c68b5534-5b2d-4c05-9c42-f54d4d765f6e",
       "Root"
     ]
   ],
