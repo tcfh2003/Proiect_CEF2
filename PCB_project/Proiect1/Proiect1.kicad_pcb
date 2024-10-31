@@ -160,7 +160,7 @@
 			)
 		)
 		(property "Value" "BC846"
-			(at 0 2.4 270)
+			(at 0 2.4 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "947174cb-cd47-4bbf-b951-aaf67a66cc24")
@@ -667,7 +667,7 @@
 			)
 		)
 		(property "Value" "BC846"
-			(at 0 2.4 270)
+			(at 0 2.4 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "312c9bda-6acf-4cb0-b59a-4d8f19bde193")
@@ -1682,7 +1682,7 @@
 			)
 		)
 		(property "Value" "220k"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c0d5e1fd-08ab-44bb-bd6c-2df81c70ddb7")
@@ -2536,7 +2536,7 @@
 			)
 		)
 		(property "Value" "BC846"
-			(at 0 2.4 270)
+			(at 0 2.4 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6d35a172-b900-4508-81c4-bcea060af98d")
@@ -2790,7 +2790,7 @@
 			)
 		)
 		(property "Value" "220k"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ef0ec0b0-c7fd-4e37-b3da-36a2f95824f2")
@@ -2990,7 +2990,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4fc07a15-fcd3-4107-844b-3330a8b7f240")
@@ -3190,7 +3190,7 @@
 			)
 		)
 		(property "Value" "BC846"
-			(at 0 2.4 270)
+			(at 0 2.4 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4de7dc61-3693-407b-b18e-470ce2feead1")
@@ -3698,7 +3698,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9081dda6-c4d9-4d7f-81aa-9d177fd1d2b9")
@@ -3898,7 +3898,7 @@
 			)
 		)
 		(property "Value" "BC846"
-			(at 0 2.4 270)
+			(at 0 2.4 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "743e0632-3912-4cb5-86d3-9ee26860fd58")
@@ -5060,7 +5060,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at -0.175 3.75 270)
+			(at -0.175 3.75 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "807b575e-5fe3-4208-9f81-c7c221ca98b7")
@@ -5429,6 +5429,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_3314G_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -5892,7 +5903,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at -0.175 3.75 270)
+			(at -0.175 3.75 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2aed948e-565d-4b78-a85e-a29648736810")
@@ -6261,6 +6272,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_3314G_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -7124,7 +7146,7 @@
 			)
 		)
 		(property "Value" "BC846"
-			(at 0 2.4 270)
+			(at 0 2.4 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2e90380b-583a-49e1-8d49-9be03940beb6")
@@ -7578,7 +7600,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "55616f1d-e895-4840-9ad8-271a1c056e8e")
@@ -7823,7 +7845,7 @@
 			)
 		)
 		(property "Value" "BC846"
-			(at 0 2.4 270)
+			(at 0 2.4 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "45f01e57-4c03-43b9-ab16-0fa32e9a43f1")
@@ -8446,6 +8468,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_3314G_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
 			)
 		)
 	)
