@@ -115,9 +115,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.127,
+        "min_clearance": 0.35559999999999997,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 1.0,
         "min_hole_clearance": 0.32999999999999996,
         "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.19999999999999998,
@@ -178,7 +178,10 @@
       ],
       "track_widths": [
         0.0,
+        0.4064,
+        0.4572,
         0.508,
+        0.6604,
         0.762,
         1.016,
         2.032
@@ -221,6 +224,10 @@
         {
           "diameter": 0.6,
           "drill": 0.3
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.4
         },
         {
           "diameter": 1.0,

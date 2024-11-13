@@ -710,6 +710,85 @@
 				)
 			)
 		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_BJT:BC846"
 			(pin_names
 				(offset 0) hide)
@@ -1455,6 +1534,16 @@
 		)
 		(uuid "00e1f8b7-a979-452c-83d9-7af2dbfafc14")
 	)
+	(polyline
+		(pts
+			(xy 165.1 165.1) (xy 165.1 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03cfc9d2-6b7b-4ca6-98ac-79627e58a2ec")
+	)
 	(wire
 		(pts
 			(xy 88.9 66.04) (xy 88.9 63.5)
@@ -1775,6 +1864,16 @@
 		)
 		(uuid "6e82cec2-d65e-42ab-b9f9-ccd681051f90")
 	)
+	(polyline
+		(pts
+			(xy 101.6 165.1) (xy 101.6 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749c1995-3586-4bc7-ba09-5d212c5fbec3")
+	)
 	(wire
 		(pts
 			(xy 187.96 138.43) (xy 187.96 144.78)
@@ -2024,6 +2123,16 @@
 			(type default)
 		)
 		(uuid "b26f3378-ae24-4cad-a5fb-c0ac1c9e8683")
+	)
+	(polyline
+		(pts
+			(xy 101.6 165.1) (xy 165.1 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bac795d1-acaa-4a50-b66e-688a5307e60b")
 	)
 	(wire
 		(pts
@@ -2300,6 +2409,18 @@
 		)
 		(uuid "6c2b5947-c2fc-4ae0-b81e-7e24aa7c737a")
 	)
+	(text "Fiducials & Mounting Holes"
+		(exclude_from_sim no)
+		(at 133.35 168.91 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "7f252583-d542-40bc-a212-16fab20807d0")
+	)
 	(symbol
 		(lib_id "Transistor_BJT:BC846")
 		(at 193.04 144.78 0)
@@ -2371,6 +2492,70 @@
 			(project "Proiect1"
 				(path "/c68b5534-5b2d-4c05-9c42-f54d4d765f6e"
 					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 109.22 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01e05e52-2360-468b-a954-aa95d043489d")
+		(property "Reference" "FID1"
+			(at 111.76 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 111.76 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 109.22 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 109.22 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Proiect1"
+				(path "/c68b5534-5b2d-4c05-9c42-f54d4d765f6e"
+					(reference "FID1")
 					(unit 1)
 				)
 			)
@@ -2989,6 +3174,70 @@
 			(project "Proiect1"
 				(path "/c68b5534-5b2d-4c05-9c42-f54d4d765f6e"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 152.4 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11a2e6cd-de91-4506-9caa-6f97ff2ee2d3")
+		(property "Reference" "FID3"
+			(at 154.94 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 154.94 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 152.4 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 152.4 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Proiect1"
+				(path "/c68b5534-5b2d-4c05-9c42-f54d4d765f6e"
+					(reference "FID3")
 					(unit 1)
 				)
 			)
@@ -4599,6 +4848,70 @@
 			(project "Proiect1"
 				(path "/c68b5534-5b2d-4c05-9c42-f54d4d765f6e"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 130.81 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79a63e61-58d6-41a8-976a-c01a77060c15")
+		(property "Reference" "FID2"
+			(at 133.35 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 133.35 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 130.81 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 130.81 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Proiect1"
+				(path "/c68b5534-5b2d-4c05-9c42-f54d4d765f6e"
+					(reference "FID2")
 					(unit 1)
 				)
 			)
