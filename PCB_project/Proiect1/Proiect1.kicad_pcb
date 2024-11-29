@@ -403,7 +403,7 @@
 		(descr "surface-mounted straight pin header, 1x02, 2.00mm pitch, single row, style 1 (pin 1 left)")
 		(tags "Surface mounted pin header SMD 1x02 2.00mm single row style1 pin1 left")
 		(property "Reference" "J1"
-			(at -2 3.54 0)
+			(at -2 3.032 0)
 			(layer "F.SilkS")
 			(uuid "f75c093d-0d56-4e3e-8802-de73c0dc3c95")
 			(effects
@@ -414,7 +414,7 @@
 			)
 		)
 		(property "Value" "OUT"
-			(at 1.175 -3.445 0)
+			(at 1.302 -3.064 0)
 			(layer "F.SilkS" knockout)
 			(uuid "d9743ad9-5c14-4e5f-b00d-07dcfcff43fd")
 			(effects
@@ -5803,7 +5803,7 @@
 		(descr "surface-mounted straight pin header, 1x02, 2.00mm pitch, single row, style 1 (pin 1 left)")
 		(tags "Surface mounted pin header SMD 1x02 2.00mm single row style1 pin1 left")
 		(property "Reference" "J3"
-			(at -0.254 3.556 0)
+			(at -0.254 3.048 0)
 			(layer "F.SilkS")
 			(uuid "f05ad96c-a850-45d5-ac33-28113aaba407")
 			(effects
@@ -5814,7 +5814,7 @@
 			)
 		)
 		(property "Value" "+25V"
-			(at -1.905 4.445 0)
+			(at -1.905 4.064 0)
 			(layer "F.SilkS" knockout)
 			(uuid "c049b83a-c98e-45ac-9b4f-19e3bb0767b1")
 			(effects
@@ -6524,7 +6524,7 @@
 		(descr "surface-mounted straight pin header, 1x02, 2.00mm pitch, single row, style 1 (pin 1 left)")
 		(tags "Surface mounted pin header SMD 1x02 2.00mm single row style1 pin1 left")
 		(property "Reference" "J4"
-			(at 2.413 3.556 0)
+			(at 2.413 3.048 0)
 			(layer "F.SilkS")
 			(uuid "3be3e3c8-e27e-4593-a5e6-6e9e6fc8040a")
 			(effects
@@ -6535,7 +6535,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 0.889 4.064 0)
+			(at 0.889 3.556 0)
 			(layer "F.SilkS" knockout)
 			(uuid "3107642b-4490-4dc5-93f5-9695b97e1fa2")
 			(effects
@@ -9267,7 +9267,7 @@
 		)
 	)
 	(gr_text "Panta Asc."
-		(at 149.765 82.615 0)
+		(at 149.384 82.996 0)
 		(layer "F.SilkS" knockout)
 		(uuid "3d527e22-31c5-4a38-bb10-c3dbed9c025b")
 		(effects
@@ -9280,7 +9280,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 161.195 100.268 0)
+		(at 161.195 99.76 0)
 		(layer "F.SilkS" knockout)
 		(uuid "3dee8981-6d4e-4a2c-9066-acdae8622cfc")
 		(effects
@@ -9293,7 +9293,7 @@
 		)
 	)
 	(gr_text "Amplitudine"
-		(at 157.385 90.87 0)
+		(at 157.512 91.632 0)
 		(layer "F.SilkS" knockout)
 		(uuid "5c620218-a065-41b7-bc54-71996c0e9713")
 		(effects
