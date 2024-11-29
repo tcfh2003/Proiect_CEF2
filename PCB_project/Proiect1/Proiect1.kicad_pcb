@@ -5802,7 +5802,7 @@
 		(at 128.556 111.19 90)
 		(descr "surface-mounted straight pin header, 1x02, 2.00mm pitch, single row, style 1 (pin 1 left)")
 		(tags "Surface mounted pin header SMD 1x02 2.00mm single row style1 pin1 left")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at -0.254 3.048 0)
 			(layer "F.SilkS")
 			(uuid "f05ad96c-a850-45d5-ac33-28113aaba407")
@@ -6523,7 +6523,7 @@
 		(at 128.556 78.805 90)
 		(descr "surface-mounted straight pin header, 1x02, 2.00mm pitch, single row, style 1 (pin 1 left)")
 		(tags "Surface mounted pin header SMD 1x02 2.00mm single row style1 pin1 left")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 2.413 3.048 0)
 			(layer "F.SilkS")
 			(uuid "3be3e3c8-e27e-4593-a5e6-6e9e6fc8040a")
