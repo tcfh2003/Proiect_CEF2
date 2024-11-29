@@ -2759,7 +2759,7 @@
 			)
 		)
 		(property "Value" "OUT"
-			(at 257.556 110.49 0)
+			(at 256.54 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
