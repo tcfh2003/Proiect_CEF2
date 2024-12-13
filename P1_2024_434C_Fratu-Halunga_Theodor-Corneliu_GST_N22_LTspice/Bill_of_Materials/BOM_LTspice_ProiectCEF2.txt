@@ -1,0 +1,31 @@
+--- Bill of Materials ---
+
+Ref.	Mfg.	Part No.	Description
+C3	--	--	capacitor, 4.7nF
+D1	OnSemi	1N4148	diode
+D2	OnSemi	1N4148	diode
+Q1	NXP	BC846B	bipolar transistor
+Q2	NXP	BC846B	bipolar transistor
+Q3	NXP	BC856B	bipolar transistor
+Q4	NXP	BC856B	bipolar transistor
+Q5	NXP	BC856B	bipolar transistor
+Q6	NXP	BC846B	bipolar transistor
+Q7	NXP	BC846B	bipolar transistor
+Q8	NXP	BC856B	bipolar transistor
+Q9	NXP	BC856B	bipolar transistor
+Q10	NXP	BC846B	bipolar transistor
+Q11	NXP	BC846B	bipolar transistor
+Q12	NXP	BC846B	bipolar transistor
+Q13	NXP	BC846B	bipolar transistor
+R1	--	--	resistor, 5K
+R2	--	--	resistor, 50K
+R3	--	--	resistor, 50K
+R4	--	--	resistor, 1K
+R5	--	--	resistor, 2K
+R6	--	--	resistor, 50K
+R7	--	--	resistor, 50K
+R8	--	--	resistor, 2K
+R9	--	--	resistor, 50K
+R10	--	--	resistor, 220K
+R11	--	--	resistor, 220K
+Rload	--	--	resistor, 22K
